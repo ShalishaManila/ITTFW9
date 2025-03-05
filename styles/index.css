@@ -6,6 +6,7 @@ body{
 
 main{
     margin:1em 5em 0 5em;
+    overflow: hidden;
 }
 
 header{
@@ -36,10 +37,6 @@ header{
 
 .titletext{
     font-size: medium 90;
-}
-
-.imgsection{
-    /* width:80em; */
 }
 
 .imgsection img{
