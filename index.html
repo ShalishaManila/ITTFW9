@@ -45,7 +45,11 @@
                     lacus,vitae ullamcor.</p>
             </div>
             <div class="imgsection">
-                <img src="images/japan.png" alt="japan">
+                <picture>
+                    <source media="(min-width:768px)" srcset="images/japan.png">
+                    <source media="(min-width:320px)" srcset="images/japan-medium.png">
+                    <img src="images/japan-small.png" alt="Japan">
+                </picture>
             </div>
         </section>
     </main>
